@@ -28,6 +28,11 @@ svg {
 .start:focus {
     outline: none;
 }
+.start:disabled {
+    color: #c0c0c0;
+    background-color: #ffffff;
+}
+
 .stop:hover {
     background: mistyrose;
 }
