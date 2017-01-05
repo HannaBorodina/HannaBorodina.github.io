@@ -1,0 +1,61 @@
+.tree {
+    margin: auto;
+    z-index: 1;
+    position: fixed;
+}
+
+svg {
+    height: 250px;
+    width: 250px;
+    z-index: 2;
+    position: fixed;
+}
+
+.start {
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-left: 250px;
+    width: 180px;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid cornflowerblue;
+    border-radius: 20px;
+}
+
+.start:hover {
+    background-color: aliceblue;
+}
+.start:focus {
+    outline: none;
+}
+.stop:hover {
+    background: mistyrose;
+}
+.stop:focus {
+    outline: none;
+}
+.stop {
+    padding: 5px 10px;
+    margin-top: 20px;
+    margin-left: 5px;
+    display: none;
+    background-color: #ffffff;
+    color: black;
+    border: 2px solid indianred;
+    border-radius: 20px;
+}
+
+.circle {
+    transition-property: fill;
+    transition-duration: 0.5s;
+}
+
+.santa {
+    z-index: 3;
+    width: 50px;
+    position: fixed;
+    margin-left: -55px;
+    margin-top: 40px;
+    transition-property: margin-left;
+    transition-duration: 0.5s;
+}
